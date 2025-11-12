@@ -44,7 +44,7 @@ void iniciar_juego() {
             valores[vi++] = atoi(tok);
             tok = strtok(NULL, " \t\n\r");
         }
-        if (vi == 0) continue;
+          if (vi == 0) continue;
         if (vi == 4 && valores[0] == 0 && valores[1] == 0 && valores[2] == 0 && valores[3] == 0) return;
         if (vi < 4 || (vi % 2) != 0) { printf("Entrada invalida\n"); continue; }
         int sr = valores[0] - 1, sc = valores[1] - 1;
