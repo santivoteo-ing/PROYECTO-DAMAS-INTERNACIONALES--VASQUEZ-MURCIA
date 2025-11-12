@@ -1,9 +1,9 @@
 #ifndef TABLERO_H
 #define TABLERO_H
 
-int NONE;
-int J1;
-int J2;
+extern int J1;
+extern int J2;
+extern int NINGUNO;
 
 void inicializar_tablero();
 void imprimir_tablero();
